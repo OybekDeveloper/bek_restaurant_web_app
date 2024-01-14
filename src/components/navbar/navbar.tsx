@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
         
       </div>
-      <div className="container resume flex justify-center flex-col absolute bg-white w-full bottom-0 mb-0 py-4 rounded-t-[24px] gap-2 ">
+      <div className="container resume flex justify-center flex-col absolute  w-full bottom-0 mb-0 py-4 rounded-t-[24px] gap-2 ">
           <h1 className="text-2xl px-4  font-bold">Bek Restaurant</h1>
           <p className="text-sm px-4  opacity-[0.7]">
             Muqimiy ko’chasi, 21-uy, Toshkent, Uzbekistan
