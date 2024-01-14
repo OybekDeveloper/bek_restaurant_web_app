@@ -9,12 +9,12 @@ const App = () => {
     return (
         <div className="app container ">
             <Navbar />
-            <div className="routes container mx-auto px-4">
+            <div className="routes container mx-auto px-4 m-0 p-0">
                 <Routes>
                     <Route path="/" element={<Menu />} />
                     <Route path="/about" element={<About />} />
-                    <Route path="/contact" element={<Comments />} />
-                    <Route path="/foods" element={<Foods />} />
+                    <Route path="/comments" element={<Comments />} />
+                    <Route path="/foods/:id" element={<Foods />} />
                 </Routes>
             </div>
         </div>

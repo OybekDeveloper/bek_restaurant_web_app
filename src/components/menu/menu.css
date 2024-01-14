@@ -1,17 +1,21 @@
-.btnMenu {
-    display: inline-flex;
-    padding: 5px 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 31px;
-    color: #ffffff;
-    border: 1px solid var(--Gold, #FFD60A);
-    background: var(--Gold, #FFD60A)
-}
-.imgMenu{
+
+.imgMenu {
     object-fit: cover;
-    height: 150px; 
+    height: 150px;
     width: 100vw;
-    background: rgba(0, 8, 20, 0.30);
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background */
 }
+.imgMenuContainer {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
+    border-radius: 20px;
+  }
+  

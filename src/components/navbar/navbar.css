@@ -1,7 +1,7 @@
 .navbar {
     background: url("https://s3-alpha-sig.figma.com/img/fa04/38bd/f50e2eb86f3e0228eba420533dd775a2?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e3DvMpB8ktLCEmIhvhJuRbHHZncc9NvMcsWr6HOgXPQz-VyhsHj9GKtTZ4G7jLF9NGGlDG8T9GOVGdOa960RR~Rzm7Y1WtnFBL7RoZeuuVrw-LwJw~csokuKbOz74d0fKigOnDzEssDArWpewvVV6WezBSVHoVOoSZ0Q00bWM8HD4Z~aZXTPblOieb7rBiHSh~SlO3juVuNvlhdbyez0NWngHmlL0YcIWBVoOIAkTpoaiYZow451HvWcafaWZj3szvO9EVBGgssLrOw6inbK0FP1jfk-qAslAr~39l9yb~d3RfYSFI9IKET4VELPX7IwAfyNPhHTKoN1je~ZK2tr1g__") lightgray 50% / cover no-repeat;
     backdrop-filter: blur(1px);
-    height: 300px;
+    height: 350px;
     position: relative;
 }
 
@@ -39,3 +39,17 @@
     background-color: var(--tg-theme-bg-color, #ffffff);
     color: var(--tg-theme-text-color);
 }
+.btnMenu {
+    display: inline-flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 31px;
+    color: #FFD60A;
+    border: 1px solid var(--Gold, #FFD60A);
+}
+.active{
+    background: var(--Gold, #FFD60A);
+    color: #ffffff;
+}   
