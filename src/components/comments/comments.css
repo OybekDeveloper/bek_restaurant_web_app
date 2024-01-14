@@ -1,12 +1,11 @@
 .client {
     border-radius: 12px;
-    border: 1px solid rgba(0, 8, 20, 0.20);
+    border: 1px solid  var(--tg-theme-text-color,rgba(0, 8, 20, 0.20));
     color: var(--tg-theme-text-color);
     background-color: var(--tg-theme-bg-color);
 }
 
 .comment-text {
-    color: var(--Black, #000814);
     font-feature-settings: 'case' on;
     /* Body/Regular */
     font-family: Inter;
