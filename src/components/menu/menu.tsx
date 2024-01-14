@@ -7,7 +7,7 @@ const Menu = () => {
   return (
     <div>
       
-      <div className='flex flex-col justify-center items-cenid) gap-4 mt-4'>
+      <div className='flex flex-col justify-center items-cenid) gap-6 mt-4 '>
         {menuData?.map(item => (
           <div className='relative flex justify-center items-center' key={item.id}>
             <div className='imgMenuContainer'>

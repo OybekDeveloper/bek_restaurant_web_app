@@ -1,0 +1,18 @@
+.client{
+    border-radius: 12px;
+border: 1px solid rgba(0, 8, 20, 0.20);
+
+background: var(--White, #FFF);
+}
+.comment-text{
+    color: var(--Black, #000814);
+font-feature-settings: 'case' on;
+/* Body/Regular */
+font-family: Inter;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 129.412% */
+letter-spacing: -0.408px;
+padding: 20px;
+}

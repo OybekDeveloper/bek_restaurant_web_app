@@ -7,7 +7,7 @@ import Comments from "../comments/comments"
 import Foods from "../foods/foods"
 const App = () => {
     return (
-        <div className="app container ">
+        <div className="app container mb-[10px] ">
             <Navbar />
             <div className="routes container mx-auto px-4 m-0 p-0">
                 <Routes>
