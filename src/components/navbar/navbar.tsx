@@ -39,7 +39,7 @@ const Navbar = () => {
     <div className="navbar relative flex justify-center mx-auto pt-7">
       {location.pathname !== '/' && (
         <Link to={'/'} className="absolute top-5 left-5 z-[100] w-[36px] bg-white rounded-full h-[36px] flex justify-center items-center">
-          <FaArrowLeft className="text-xl"  />
+          <FaArrowLeft className="text-xl z-[9999]"  />
         </Link>
       )}
       <div className="absolute flex justify-center items-center flex-col w-full">
