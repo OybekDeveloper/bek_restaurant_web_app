@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 const Navbar = () => {
   return (
-    <div className="navbar relative flex justify-center mx-auto pt-10">
+    <div className="navbar relative flex justify-center mx-auto pt-7 ">
       <div className="absolute flex justify-center items-center flex-col w-full">
         <img
           className="logoImg"
@@ -15,7 +15,15 @@ const Navbar = () => {
             <button className="btn">Rus</button>
           </div>
         </div>
+        
       </div>
+      <div className="resume flex justify-center flex-col absolute bg-white w-full bottom-0 mb-0 py-4 rounded-t-[24px] gap-2 ">
+          <h1 className="text-2xl px-3  font-bold">Bek Restaurant</h1>
+          <p className="text-sm px-3  opacity-[0.7]">
+            Muqimiy ko’chasi, 21-uy, Toshkent, Uzbekistan
+          </p>
+          <p className="text-xl px-3 font-bold opacity-[0.7]">+998(98) 812 22 66</p>
+        </div>  
     </div>
   );
 };

@@ -3,7 +3,7 @@ import Menu from "../menu/menu"
 import About from "../about/about"
 import Comments from "../comments/comments"
 import Navbar from "../navbar/navbar"
-
+import './app.css'
 
 const App = () => {
     return (
