@@ -1,7 +1,21 @@
+import { Route, Routes } from "react-router-dom"
+import Menu from "../menu/menu"
+import About from "../about/about"
+import Comments from "../comments/comments"
+import Navbar from "../navbar/navbar"
+
+
 const App = () => {
     return (
-        <div>
-            <h1>Hello World!</h1>
+        <div className="app">
+            <Navbar />
+            <div className="routes">
+                <Routes>
+                    <Route path="/" element={<Menu />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/contact" element={<Comments />} />
+                </Routes>
+            </div>
         </div>
     )
 }

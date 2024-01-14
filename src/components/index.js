@@ -1,1 +1,6 @@
 export { default as App} from './app/app'
+export { default as Menu} from './menu/menu'
+export { default as About} from './about/about'
+export { default as Comments} from './comments/comments'
+export { default as Orders} from './orders/orders'
+export { default as Navbar} from './navbar/navbar'
