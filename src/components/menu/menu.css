@@ -1,0 +1,17 @@
+.btnMenu {
+    display: inline-flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 31px;
+    color: #ffffff;
+    border: 1px solid var(--Gold, #FFD60A);
+    background: var(--Gold, #FFD60A)
+}
+.imgMenu{
+    object-fit: cover;
+    height: 150px; 
+    width: 100vw;
+    background: rgba(0, 8, 20, 0.30);
+}

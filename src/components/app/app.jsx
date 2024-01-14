@@ -7,9 +7,9 @@ import './app.css'
 
 const App = () => {
     return (
-        <div className="app">
+        <div className="app container ">
             <Navbar />
-            <div className="routes">
+            <div className="routes container mx-auto px-4">
                 <Routes>
                     <Route path="/" element={<Menu />} />
                     <Route path="/about" element={<About />} />
