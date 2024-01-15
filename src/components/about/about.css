@@ -7,3 +7,7 @@
 .sliderImg:hover{
   transform: scale(1.1); /* yoki boshqa foiz qiymati, masalan, 110% */
 }
+.slick-prev,
+.slick-next {
+  display: none !important;
+}

@@ -11,13 +11,16 @@ const About = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000, // Set the autoplay speed to 2000 milliseconds (2 seconds)
+    autoplaySpeed: 3000,
+    nextArrow: null, // Removes the next arrow
+    prevArrow: null, // Removes the previous arrow
   };
+  
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       <h1 className="text-2xl font-[500]">Bizning jamoamiz</h1>
-      <div className="pt-5">
-        <Slider {...settings}>
+      <div className="pt-5 mx-2  px-3">
+        <Slider {...settings} >
           <div className="flex justify-center">
             <img
               className="sliderImg mx-auto"
