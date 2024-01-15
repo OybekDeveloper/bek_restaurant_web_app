@@ -12,14 +12,14 @@ const About = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    nextArrow: null, // Removes the next arrow
-    prevArrow: null, // Removes the previous arrow
+    nextArrow: null, 
+    prevArrow: null, 
   };
   
   return (
     <div className="flex flex-col ">
       <h1 className="text-2xl font-[500]">Bizning jamoamiz</h1>
-      <div className="pt-5 mx-2  px-3">
+      <div className="pt-5">
         <Slider {...settings} >
           <div className="flex justify-center">
             <img
