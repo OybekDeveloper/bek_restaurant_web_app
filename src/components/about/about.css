@@ -1,7 +1,7 @@
 .sliderImg{
   width: 100%;
   object-fit: contain;
-  aspect-ratio: 3/4;
+  aspect-ratio: 4/5;
 }
 
 .slick-prev,
