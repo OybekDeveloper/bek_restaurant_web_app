@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom"
-import Menu from "../menu/menu"
 import About from "../about/about"
 import './app.css'
 import Navbar from "../navbar/navbar"
 import Comments from "../comments/comments"
 import Foods from "../foods/foods"
+import Menu from "../menu/menu"
 const App = () => {
     return (
         <div className="app container mb-[10px] ">

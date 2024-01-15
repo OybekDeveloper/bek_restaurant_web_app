@@ -1,4 +1,3 @@
-import React from 'react';
 import { menuData } from './menudata';
 import './menu.css';
 import { Link } from 'react-router-dom';

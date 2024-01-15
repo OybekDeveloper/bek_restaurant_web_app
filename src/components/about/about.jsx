@@ -1,4 +1,3 @@
-import React from "react";
 import { MdOutlineCalendarToday } from "react-icons/md";
 import { MdAccessTime } from "react-icons/md";
 import Slider from "react-slick";
