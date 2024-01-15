@@ -1,12 +1,9 @@
 .sliderImg{
   width: 100%;
   object-fit: contain;
-  aspect-ratio: 3/2;
-  transition: all .3s ease;
+  aspect-ratio: 3/4;
 }
-.sliderImg:hover{
-  transform: scale(1.1); /* yoki boshqa foiz qiymati, masalan, 110% */
-}
+
 .slick-prev,
 .slick-next {
   display: none !important;

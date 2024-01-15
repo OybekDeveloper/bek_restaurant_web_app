@@ -15,7 +15,6 @@ const About = () => {
     nextArrow: null, 
     prevArrow: null, 
   };
-  
   return (
     <div className="flex flex-col ">
       <h1 className="text-2xl font-[500]">Bizning jamoamiz</h1>
