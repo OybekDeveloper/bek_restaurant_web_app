@@ -4,8 +4,12 @@ const Shashlik = {
   beshpanja: new URL("./beshpanja.jpg", import.meta.url).href,
   pamidorshashlik: new URL("./pamidorshashlik.jpg", import.meta.url).href,
   shashlikmoloty: new URL("./shashlikmoloty.jpg", import.meta.url).href,
-  shashlikmolotycharvi: new URL("./shashlikmolotycharvi.jpg", import.meta.url).href,
-  shashlikmolotykichkina: new URL("./shashlikmolotykichkina.jpg", import.meta.url).href,
+  shashlikmolotycharvi: new URL("./shashlikmolotycharvi.jpg", import.meta.url)
+    .href,
+  shashlikmolotykichkina: new URL(
+    "./shashlikmolotykichkina.jpg",
+    import.meta.url
+  ).href,
   shashliknapaleon: new URL("./shashliknapaleon.jpg", import.meta.url).href,
   shashlikrulet: new URL("./shashlikrulet.jpg", import.meta.url).href,
 };
