@@ -7,5 +7,6 @@ const MilliyTaomlar = {
   qozichoqy: new URL("./qo'zichoq yelkasi.jpg", import.meta.url).href,
   qozonkabob: new URL("./qozon kabob.jpg", import.meta.url).href,
   vaguri: new URL("./vaguri.jpg", import.meta.url).href,
+  manti: new URL("./manti.jpg", import.meta.url).href,
 };
 export default MilliyTaomlar;
