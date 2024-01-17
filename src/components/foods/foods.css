@@ -4,3 +4,6 @@
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.8); /* Darker background */
 }
+.blurhash{
+    border-radius: 20px!important;
+}
