@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaArrowLeft } from "react-icons/fa6";
 import { Link, useLocation } from "react-router-dom";
-
+import { motion } from 'framer-motion'
 import "./navbar.css";
 
 const navLink = [
@@ -39,7 +39,7 @@ const Navbar = () => {
     <div className="navbar relative flex justify-center mx-auto pt-7">
       {location.pathname !== '/' && (
         <Link to={'/'} className="absolute top-5 left-5 z-[100] w-[36px] bg-white rounded-full h-[36px] flex justify-center items-center">
-          <FaArrowLeft className="text-xl z-[9999] text-black"  />
+          <FaArrowLeft className="text-xl z-[9999] text-black" />
         </Link>
       )}
       <div className="absolute flex justify-center items-center flex-col w-full">
@@ -63,14 +63,21 @@ const Navbar = () => {
         <p className="text-xl px-4 font-bold opacity-70">+998(98) 812 22 66</p>
         <div className="flex gap-3 px-4">
           {navLink.map((item) => (
-            <Link
-              key={item.id}
-              to={item.link}
-              className={`btnMenu ${activeButton === item.id ? "active" : ""}`}
-              onClick={() => handleButtonClick(item.id)}
-            >
-              {item.title}
-            </Link>
+            <motion.div
+              whileTap={{
+                scale: 1.2,
+                borderRadius: "100%"
+              }} key={item.id}>
+              <Link
+
+                key={item.id}
+                to={item.link}
+                className={`btnMenu ${activeButton === item.id ? "active" : ""}`}
+                onClick={() => handleButtonClick(item.id)}
+              >
+                {item.title}
+              </Link>
+            </motion.div>
           ))}
         </div>
       </div>
